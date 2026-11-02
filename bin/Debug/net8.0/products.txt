@@ -1,0 +1,5 @@
+Longi Solar Panel 550W|High efficiency mono-crystalline solar panel|50|550
+Huawei Inverter 5KW|Hybrid inverter for residential system|10|5000
+Lithium Battery 100Ah|Deep cycle energy storage battery|20|10000
+Mounting Structure Kit|Aluminum rooftop mounting system|100|15000
+DC Solar Cable 6mm|UV resistant solar cable|25|200
