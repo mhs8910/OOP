@@ -22,6 +22,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("==================================================");
                 Console.WriteLine("         SOLAR BUSINESS MANAGEMENT SYSTEM         ");

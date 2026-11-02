@@ -14,6 +14,7 @@ namespace SolarManagement
 
         public void ShowSignUp()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("=============== SIGN UP ===============");
 
@@ -44,6 +45,7 @@ namespace SolarManagement
         // Gives the user 3 attempts. Returns the User, or null if all attempts fail.
         public User ShowSignIn()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("=============== SIGN IN ===============");
 

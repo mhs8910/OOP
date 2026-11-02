@@ -1,3 +1,2 @@
-SolarManagement.User
-SolarManagement.User
-SolarManagement.User
+Administrator|03000000000|admin@solar.com|admin|123|Admin
+Muhammad Hassan Shafiq|03084048419|shafiqhassan429@gmail.com|mhs8910|123|Customer

@@ -26,10 +26,10 @@ namespace SolarManagement
         }
 
         // One line of the file.
-        public static string ToString(Customer customer)
+        public override string ToString()
         {
-            return customer.Name + "|" + customer.Phone + "|" + customer.Email + "|" + customer.Address + "|" + customer.SystemType + "|" +
-                   customer.InverterCapacity + "|" + customer.SolarPanels + "|" + customer.SystemCapacity + "|" + customer.ProjectPrice;
+            return Name + "|" + Phone + "|" + Email + "|" + Address + "|" + SystemType + "|" +
+                   InverterCapacity + "|" + SolarPanels + "|" + SystemCapacity + "|" + ProjectPrice;
         }
     }
 }

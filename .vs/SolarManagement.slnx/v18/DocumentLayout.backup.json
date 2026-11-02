@@ -1,30 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\common\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:common\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\common\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:common\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:ui\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\ui\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:ui\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\common\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:common\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\common\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:common\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagementsystem\\solarmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|c:\\users\\tts laptops\\downloads\\solarmanagement_basic\\solarmanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7536A6B-5E22-B980-7E3B-0B4A6122AABA}|SolarManagement.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +62,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Services\\CustomerService.cs*",
+              "RelativeToolTip": "Services\\CustomerService.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:22:42.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerUI.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\CustomerUI.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerUI.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\CustomerUI.cs*",
+              "RelativeToolTip": "UI\\CustomerUI.cs*",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwI8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:20:24.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "UI\\InventoryUI.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\InventoryUI.cs",
+              "RelativeToolTip": "UI\\InventoryUI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwF4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:16:57.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminUI.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\AdminUI.cs",
+              "RelativeDocumentMoniker": "UI\\AdminUI.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\AdminUI.cs",
+              "RelativeToolTip": "UI\\AdminUI.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:15:55.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:10:44.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:01:42.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenuUI.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\UI\\MainMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "UI\\MainMenuUI.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\UI\\MainMenuUI.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\UI\\MainMenuUI.cs",
               "RelativeToolTip": "UI\\MainMenuUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA5wBcAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,10 +170,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T06:51:32.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T11:04:16.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAswBwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,38 +207,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAADwvxwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T06:51:32.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Validator.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Common\\Validator.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Common\\Validator.cs",
               "RelativeDocumentMoniker": "Common\\Validator.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Common\\Validator.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Common\\Validator.cs",
               "RelativeToolTip": "Common\\Validator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T06:51:10.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "InputHelper.cs",
-              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Common\\InputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Common\\InputHelper.cs",
               "RelativeDocumentMoniker": "Common\\InputHelper.cs",
-              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\Common\\InputHelper.cs",
+              "ToolTip": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagementSystem\\SolarManagement\\Common\\InputHelper.cs",
               "RelativeToolTip": "Common\\InputHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T06:49:58.721Z",
               "EditorCaption": ""

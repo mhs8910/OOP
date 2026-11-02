@@ -15,7 +15,7 @@ namespace SolarManagement
                 text = "";
             }
 
-            while (text == "" || Validator.HasSeparator(text))
+            while (text.Trim() == "" || Validator.HasSeparator(text))
             {
                 Console.WriteLine("  Input cannot be empty or contain the | symbol.");
                 Console.WriteLine(message);
@@ -25,7 +25,7 @@ namespace SolarManagement
                     text = "";
                 }
             }
-            return text;
+            return text.Trim();
         }
 
         // Keeps asking until the user types a whole number.
@@ -77,6 +77,20 @@ namespace SolarManagement
                 capacity = ReadNumber(message);
             }
             return capacity;
+        }
+
+        // Clears the console before showing a fresh menu or screen.
+        // The try/catch also allows the program to run when output is redirected.
+        public static void ClearScreen()
+        {
+            try
+            {
+                Console.Clear();
+            }
+            catch
+            {
+                // Clearing is optional when the console does not support it.
+            }
         }
 
         // Waits for the user to press Enter.

@@ -38,10 +38,10 @@ namespace SolarManagement
             for (int i = 0; i < lines.Count; i++)
             {
                 string[] parts = lines[i].Split('|');
-                if (parts.Length == 9)
+                if (parts.Length == 9 && int.TryParse(parts[7], out int value7) && int.TryParse(parts[8], out int value8))
                 {
                     Customer customer = new Customer(parts[0], parts[1], parts[2], parts[3],
-                        parts[4], parts[5], parts[6], int.Parse(parts[7]), int.Parse(parts[8]));
+                        parts[4], parts[5], parts[6], value7, value8);
                     customers.Add(customer);
                 }
             }
@@ -81,11 +81,11 @@ namespace SolarManagement
         {
             List<Customer> customers = new List<Customer>();
             customers.Add(new Customer("Ali Khan", "03001234567", "ali.khan@gmail.com",
-                "Lahore, Johar Town", "Residential", "5KW", "Longi Solar Panel 550W", 5, 155000));
+                "Lahore, Johar Town", "Residential", "5KW", "Longi Solar Panel 550W", 5, 60500));
             customers.Add(new Customer("Usman Tariq", "03114567890", "usman.tariq@yahoo.com",
-                "Faisalabad, Madina Town", "Commercial", "10KW", "Trina Solar Panel 450W", 10, 310000));
+                "Faisalabad, Madina Town", "Commercial", "10KW", "Trina Solar Panel 450W", 10, 120450));
             customers.Add(new Customer("Hassan Raza", "03331234567", "hassan.raza@gmail.com",
-                "Sheikhupura, City Center", "Industrial", "20KW", "Jinko Solar Panel 400W", 20, 620000));
+                "Sheikhupura, City Center", "Industrial", "20kw", "Jinko Solar Panel 400W", 20, 240350));
             return customers;
         }
     }

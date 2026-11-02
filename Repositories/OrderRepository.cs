@@ -22,10 +22,10 @@ namespace SolarManagement
             for (int i = 0; i < lines.Count; i++)
             {
                 string[] parts = lines[i].Split('|');
-                if (parts.Length == 6)
+                if (parts.Length == 6 && int.TryParse(parts[3], out int value3) && int.TryParse(parts[4], out int value4))
                 {
                     orders.Add(new Order(parts[0], parts[1], parts[2],
-                                         int.Parse(parts[3]), int.Parse(parts[4]), parts[5]));
+                                         value3, value4, parts[5]));
                 }
             }
             return orders;

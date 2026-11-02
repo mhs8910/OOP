@@ -18,9 +18,19 @@ namespace SolarManagement
         // Returns false if the storage is full (1000 customers).
         public bool AddCustomer(Customer customer)
         {
-            if (_repository.GetAll().Count >= 1000)
+            List<Customer> existingCustomers = _repository.GetAll();
+            if (existingCustomers.Count >= 1000)
             {
                 return false;
+            }
+
+            // A phone number identifies a customer, so do not store duplicates.
+            for (int i = 0; i < existingCustomers.Count; i++)
+            {
+                if (existingCustomers[i].Phone == customer.Phone)
+                {
+                    return false;
+                }
             }
 
             customer.ProjectPrice = _calculator.CalculatePrice(customer.SystemCapacity);
@@ -66,6 +76,45 @@ namespace SolarManagement
         public void ExportCustomers()
         {
             _repository.ExportToTxt(_repository.GetAll());
+        }
+        // Returns the customer within the maximum and minimum system capacity range or null.
+        public Customer FindCustomerBySystemCapacity(int SystemCapacitymaximum, int SystemCapacityminimum)
+        {
+            List<Customer> customers = _repository.GetAll();
+            for (int i = 0; i < customers.Count; i++)
+            {
+                if (customers[i].SystemCapacity > SystemCapacityminimum && customers[i].SystemCapacity < SystemCapacitymaximum)
+                {
+                    return customers[i];
+                }
+            }
+            return null;
+        }
+
+        //Returns the customer with this System Type, or null
+        public Customer FindCustomerBySystemType(string SystemType)
+        {
+            List<Customer> customers = _repository.GetAll();
+            for (int i = 0; i < customers.Count; i++)
+            {
+                if (customers[i].SystemType == SystemType)
+                {
+                    return customers[i];
+                }
+            }
+            return null;
+        }
+        public Customer FindCustomerByName(string name)
+        {
+            List<Customer> customers = _repository.GetAll();
+            for (int i = 0; i < customers.Count; i++)
+            {
+                if (customers[i].Name == name)
+                {
+
+                }
+            }
+            return null;
         }
     }
 }

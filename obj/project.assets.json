@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\SolarManagement.csproj",
+      "projectUniqueName": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Corrected\\SolarManagement_Fixed\\SolarManagement.csproj",
       "projectName": "SolarManagement",
-      "projectPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\SolarManagement.csproj",
+      "projectPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Corrected\\SolarManagement_Fixed\\SolarManagement.csproj",
       "packagesPath": "C:\\Users\\TTS LAPTOPS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Basic\\SolarManagement\\obj\\",
+      "outputPath": "C:\\Users\\TTS LAPTOPS\\Downloads\\SolarManagement_Corrected\\SolarManagement_Fixed\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TTS LAPTOPS\\AppData\\Roaming\\NuGet\\NuGet.Config",

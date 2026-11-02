@@ -1,0 +1,37 @@
+==========================================================
+              SOLAR BUSINESS CUSTOMER LIST                
+==========================================================
+
+Customer #1
+Name            : Ali Khan
+Phone           : 03001234567
+Email           : ali.khan@gmail.com
+Address         : Lahore, Johar Town
+System Type     : Residential
+System Capacity : 5 KW
+Inverter        : 5KW
+Solar Panels    : Longi Solar Panel 550W
+Project Price   : 60500 PKR
+----------------------------------------------------------
+Customer #2
+Name            : Usman Tariq
+Phone           : 03114567890
+Email           : usman.tariq@yahoo.com
+Address         : Faisalabad, Madina Town
+System Type     : Commercial
+System Capacity : 10 KW
+Inverter        : 10KW
+Solar Panels    : Trina Solar Panel 450W
+Project Price   : 120450 PKR
+----------------------------------------------------------
+Customer #3
+Name            : Hassan Raza
+Phone           : 03331234567
+Email           : hassan.raza@gmail.com
+Address         : Sheikhupura, City Center
+System Type     : Industrial
+System Capacity : 20 KW
+Inverter        : 20KW
+Solar Panels    : Jinko Solar Panel 400W
+Project Price   : 240350 PKR
+----------------------------------------------------------

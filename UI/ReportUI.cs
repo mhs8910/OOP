@@ -15,6 +15,7 @@ namespace SolarManagement
 
         public void ShowReports()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("=============== BUSINESS REPORTS ===============");
             Console.WriteLine("Total Customers : " + _reportService.GetTotalCustomers());

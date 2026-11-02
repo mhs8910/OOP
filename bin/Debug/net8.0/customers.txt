@@ -1,3 +1,3 @@
-SolarManagement.Customer
-SolarManagement.Customer
-SolarManagement.Customer
+Ali Khan|03001234567|ali.khan@gmail.com|Lahore, Johar Town|Residential|5KW|Longi Solar Panel 550W|5|60500
+Usman Tariq|03114567890|usman.tariq@yahoo.com|Faisalabad, Madina Town|Commercial|10KW|Trina Solar Panel 450W|10|120450
+Hassan Raza|03331234567|hassan.raza@gmail.com|Sheikhupura, City Center|Industrial|20KW|Jinko Solar Panel 400W|20|240350

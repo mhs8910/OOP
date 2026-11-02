@@ -15,10 +15,21 @@ namespace SolarManagement
         // Returns false if the inventory is full (1000 products).
         public bool AddProduct(Product product)
         {
-            if (_repository.GetAll().Count >= 1000)
+            List<Product> existingProducts = _repository.GetAll();
+            if (existingProducts.Count >= 1000)
             {
                 return false;
             }
+
+            // Product names are used to find products when creating orders.
+            for (int i = 0; i < existingProducts.Count; i++)
+            {
+                if (existingProducts[i].Name.ToLower() == product.Name.ToLower())
+                {
+                    return false;
+                }
+            }
+
             _repository.Save(product);
             return true;
         }
@@ -34,7 +45,7 @@ namespace SolarManagement
             List<Product> products = _repository.GetAll();
             for (int i = 0; i < products.Count; i++)
             {
-                if (products[i].Name == name)
+                if (products[i].Name.ToLower() == name.ToLower())
                 {
                     return products[i];
                 }
@@ -73,17 +84,29 @@ namespace SolarManagement
         }
 
         // Reduces the stock of one product and saves the inventory file.
-        public void ReduceStock(string productName, int quantity)
+        public bool ReduceStock(string productName, int quantity)
         {
+            if (quantity <= 0)
+            {
+                return false;
+            }
+
             List<Product> products = _repository.GetAll();
             for (int i = 0; i < products.Count; i++)
             {
-                if (products[i].Name == productName)
+                if (products[i].Name.ToLower() == productName.ToLower())
                 {
+                    if (products[i].Quantity < quantity)
+                    {
+                        return false;
+                    }
+
                     products[i].Quantity = products[i].Quantity - quantity;
+                    _repository.SaveAll(products);
+                    return true;
                 }
             }
-            _repository.SaveAll(products);
+            return false;
         }
     }
 }

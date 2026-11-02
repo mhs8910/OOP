@@ -19,6 +19,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("=============== INVENTORY MANAGEMENT ===============");
                 Console.WriteLine("1 - Add Product");
@@ -41,6 +42,7 @@ namespace SolarManagement
 
         private void AddProductUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== ADD NEW PRODUCT ==========");
 
@@ -60,7 +62,7 @@ namespace SolarManagement
             }
             else
             {
-                Console.WriteLine("Inventory is full! Cannot add more products.");
+                Console.WriteLine("A product with this name may already exist, or inventory is full.");
             }
 
             InputHelper.Pause();
@@ -68,6 +70,7 @@ namespace SolarManagement
 
         private void ViewProductsUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("================ INVENTORY ================");
 

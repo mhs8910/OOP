@@ -29,14 +29,24 @@ namespace SolarManagement
                 return "NotFound";
             }
 
-            if (product.Quantity < order.Quantity)
+            if (order.Quantity <= 0 || product.Quantity < order.Quantity)
             {
                 return "LowStock";
             }
 
-            _productService.ReduceStock(product.Name, order.Quantity);
+            // Calculate in long first so a large order cannot overflow an int.
+            long total = (long)order.Quantity * product.Price;
+            if (total > int.MaxValue)
+            {
+                return "InvalidTotal";
+            }
 
-            order.TotalPrice = order.Quantity * product.Price;
+            if (!_productService.ReduceStock(product.Name, order.Quantity))
+            {
+                return "LowStock";
+            }
+
+            order.TotalPrice = (int)total;
             order.Status = "Pending";
 
             _orderRepository.Save(order);

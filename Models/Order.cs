@@ -23,10 +23,10 @@ namespace SolarManagement
             Status = status;
         }
 
-        public static string ToString(Order order)
+        public override string ToString()
         {
-            return order.CustomerName + "|" + order.CustomerPhone + "|" + order.ProductName + "|" +
-                   order.Quantity + "|" + order.TotalPrice + "|" + order.Status;
+            return CustomerName + "|" + CustomerPhone + "|" + ProductName + "|" +
+                   Quantity + "|" + TotalPrice + "|" + Status;
         }
     }
 }

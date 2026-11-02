@@ -38,9 +38,9 @@ namespace SolarManagement
             for (int i = 0; i < lines.Count; i++)
             {
                 string[] parts = lines[i].Split('|');
-                if (parts.Length == 4)
+                if (parts.Length == 4 && int.TryParse(parts[2], out int value2) && int.TryParse(parts[3], out int value3))
                 {
-                    products.Add(new Product(parts[0], parts[1], int.Parse(parts[2]), int.Parse(parts[3])));
+                    products.Add(new Product(parts[0], parts[1], value2, value3));
                 }
             }
             return products;

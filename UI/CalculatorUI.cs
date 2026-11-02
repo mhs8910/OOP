@@ -14,6 +14,7 @@ namespace SolarManagement
 
         public void ShowCalculator()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== SOLAR SETUP CALCULATOR ==========");
 

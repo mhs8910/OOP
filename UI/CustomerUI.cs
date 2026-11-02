@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Transactions;
 
 namespace SolarManagement
 {
@@ -19,6 +20,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("=============== CUSTOMER MANAGEMENT ===============");
                 Console.WriteLine("1 - Add Customer");
@@ -47,6 +49,7 @@ namespace SolarManagement
 
         private void AddCustomerUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== ADD NEW CUSTOMER ==========");
 
@@ -71,7 +74,7 @@ namespace SolarManagement
             }
             else
             {
-                Console.WriteLine("Customer storage is full! Cannot add more customers.");
+                Console.WriteLine("A customer with this phone number may already exist, or customer storage is full.");
             }
 
             InputHelper.Pause();
@@ -79,6 +82,7 @@ namespace SolarManagement
 
         private void ViewCustomersUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("================ CUSTOMER LIST ================");
 
@@ -110,38 +114,100 @@ namespace SolarManagement
 
         private void SearchCustomerUI()
         {
+            InputHelper.ClearScreen();
+            List<Customer> customers = _customerService.GetAllCustomers();
+
             Console.WriteLine();
             Console.WriteLine("========== SEARCH CUSTOMER ==========");
 
-            string phone = InputHelper.ReadText("Enter Customer Phone Number:");
-            Customer c = _customerService.FindCustomerByPhone(phone);
-
+            Console.WriteLine("How do you want to search Customers");
+            Console.WriteLine("1-By Name");
+            Console.WriteLine("2-By System Capacity");
+            Console.WriteLine("3-By System Type");
             Console.WriteLine();
-            if (c == null)
+            Console.Write("Enter your choice : ");
+
+            int input = int.Parse(Console.ReadLine());
+
+            if (input == 1)
             {
-                Console.WriteLine("Customer not found!");
+                InputHelper.ClearScreen();
+                Console.WriteLine("Enter the name of the customer : ");
+                string name = "";
+                Console.WriteLine(name);
+                _customerService.FindCustomerByName(name);
+
             }
-            else
+            if (input == 2)
             {
-                Console.WriteLine("Customer Found!");
-                Console.WriteLine("Name            : " + c.Name);
-                Console.WriteLine("Phone           : " + c.Phone);
-                Console.WriteLine("Email           : " + c.Email);
-                Console.WriteLine("Address         : " + c.Address);
-                Console.WriteLine("System Type     : " + c.SystemType);
-                Console.WriteLine("System Capacity : " + c.SystemCapacity + " KW");
-                Console.WriteLine("Project Price   : " + c.ProjectPrice + " PKR");
+                InputHelper.ClearScreen();
+                Console.WriteLine("Enter the maximum System Capacity : ");
+                int SystemCapacitymaximum = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter the minimum System Capacity : ");
+                int SystemCapacityminimum = int.Parse(Console.ReadLine());
+                Customer c=_customerService.FindCustomerBySystemCapacity(SystemCapacitymaximum, SystemCapacityminimum);
+                if (customers.Count == 0)
+                {
+                    Console.WriteLine("No customer found");
+                }
+                for (int i = 0; i < customers.Count; i++)
+                {
+                    c = customers[i];
+
+                    Console.WriteLine("Name            : " + c.Name);
+                    Console.WriteLine("Phone           : " + c.Phone);
+                    Console.WriteLine("Email           : " + c.Email);
+                    Console.WriteLine("Address         : " + c.Address);
+                    Console.WriteLine("System Type     : " + c.SystemType);
+                    Console.WriteLine("System Capacity : " + c.SystemCapacity + " KW");
+                    Console.WriteLine("Inverter        : " + c.InverterCapacity);
+                    Console.WriteLine("Solar Panels    : " + c.SolarPanels);
+                    Console.WriteLine("Project Price   : " + c.ProjectPrice + " PKR");
+                    Console.WriteLine("--------------------------------------------------");
+                }
+                InputHelper.ClearScreen();
+
             }
 
-            InputHelper.Pause();
+            if (input == 3)
+            {
+                InputHelper.ClearScreen();
+                Console.WriteLine("Enter the System Type (Write Residential, Commercial or Industrial for respective type) : ");
+                string SystemType = Console.ReadLine();
+
+                Customer c = _customerService.FindCustomerBySystemType(SystemType);
+                if (customers.Count == 0)
+                {
+                    Console.WriteLine("No customer found");
+                }
+                for (int i = 0; i < customers.Count; i++)
+                {
+                    c = customers[i];
+
+                    Console.WriteLine("Name            : " + c.Name);
+                    Console.WriteLine("Phone           : " + c.Phone);
+                    Console.WriteLine("Email           : " + c.Email);
+                    Console.WriteLine("Address         : " + c.Address);
+                    Console.WriteLine("System Type     : " + c.SystemType);
+                    Console.WriteLine("System Capacity : " + c.SystemCapacity + " KW");
+                    Console.WriteLine("Inverter        : " + c.InverterCapacity);
+                    Console.WriteLine("Solar Panels    : " + c.SolarPanels);
+                    Console.WriteLine("Project Price   : " + c.ProjectPrice + " PKR");
+                    Console.WriteLine("--------------------------------------------------");
+                }
+                InputHelper.ClearScreen();
+            }
+
+
         }
 
         private void DeleteCustomerUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== DELETE CUSTOMER ==========");
 
-            string phone = InputHelper.ReadText("Enter Customer Phone Number to Delete:");
+            string phone = InputHelper.ReadPhone("Enter Customer Phone Number to Delete (11 digits):");
 
             Console.WriteLine();
             if (_customerService.DeleteCustomerByPhone(phone))
@@ -158,6 +224,7 @@ namespace SolarManagement
 
         private void ExportCustomersUI()
         {
+            InputHelper.ClearScreen();
             _customerService.ExportCustomers();
 
             Console.WriteLine();

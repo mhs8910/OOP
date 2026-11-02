@@ -19,6 +19,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("=============== ORDER MANAGEMENT ===============");
                 Console.WriteLine("1 - Create Order");
@@ -41,6 +42,7 @@ namespace SolarManagement
 
         private void CreateOrderUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== CREATE ORDER ==========");
 
@@ -71,6 +73,10 @@ namespace SolarManagement
                 Console.WriteLine("Insufficient stock! Available: " +
                                   _orderService.GetAvailableStock(productName));
             }
+            else if (result == "InvalidTotal")
+            {
+                Console.WriteLine("Order total is too large. Reduce the quantity or check the product price.");
+            }
             else
             {
                 Console.WriteLine("Order storage is full! Cannot create more orders.");
@@ -81,6 +87,7 @@ namespace SolarManagement
 
         private void ViewOrdersUI()
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("================ ORDERS ================");
 

@@ -26,6 +26,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("=============== ADMIN PANEL ===============");
                 Console.WriteLine("Logged in as: " + admin.Name);

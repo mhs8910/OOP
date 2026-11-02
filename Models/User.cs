@@ -19,9 +19,9 @@ namespace SolarManagement
             Role = role;
         }
 
-        public static string ToString(User user)
+        public override string ToString()
         {
-            return user.Name + "|" + user.Phone + "|" + user.Email + "|" + user.Username + "|" + user.Password + "|" + user.Role;
+            return Name + "|" + Phone + "|" + Email + "|" + Username + "|" + Password + "|" + Role;
         }
     }
 }

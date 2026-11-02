@@ -21,6 +21,7 @@ namespace SolarManagement
 
             while (running)
             {
+                InputHelper.ClearScreen();
                 Console.WriteLine();
                 Console.WriteLine("=============== CUSTOMER PORTAL ===============");
                 Console.WriteLine("Logged in as: " + user.Name);
@@ -44,6 +45,7 @@ namespace SolarManagement
 
         private void ShowEstimator(User user)
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("========== PRICE ESTIMATOR ==========");
 
@@ -63,6 +65,7 @@ namespace SolarManagement
         // Shows only the orders placed with the customer's own phone number.
         private void ShowMyOrders(User user)
         {
+            InputHelper.ClearScreen();
             Console.WriteLine();
             Console.WriteLine("================ MY ORDERS ================");
 
